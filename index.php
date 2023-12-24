@@ -1,4 +1,7 @@
-<?php  
-echo '<h1><bgcolor=gray>'
-echo 'User IP Address - '.$_SERVER['REMOTE_ADDR'];  
-?>  
+<?php
+$ip_server = $_SERVER['SERVER_ADDR'];
+
+echo "<h1>Hello From Docker</h1><br>";
+echo "Server IP Address is: $ip_server", "<br><p>";
+echo "Made by <font color=blue>ALEX";
+?>
